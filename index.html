@@ -6,11 +6,18 @@
 
 </head>
 <body>
-<scene>
+<a-scene>
  <a-sphere postion="0 1.25 -1" radius="1.25"> </a-sphere>
    <a-box postion= "1 0.5 1" width="1" height="1" depth="1"> </a-box>
      <a-cylinder postion= "1 0.75 1" radius="0.5" height="1.5"> </a-cylinder>
        <a-plane width="4" height="4"> </a-plane>
-</scene>
+
+       <a-sky color="#030303"></a-sky>
+          <a-entity position="0 0 3.8">
+             <a-camera></a-camera>
+           </a-entity>
+
+       
+</a-scene>
 </body>
 </html>
